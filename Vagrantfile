@@ -60,6 +60,8 @@ Vagrant.configure(2) do |config|
   
   config.vm.provision "file", source: "~/workspace/Parcelsize-Pipeline/shell-script.sh", destination: "shell-script.sh"
   
-  config.vm.provision "shell", 
-   	inline: "echo Hello World!"
-  end
+  config.vm.provision "shell", inline: <<-SHELL
+    sudo apt-get update
+    sudo apt-get install 
+   SHELL
+end
