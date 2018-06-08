@@ -58,7 +58,7 @@ Vagrant.configure(2) do |config|
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
   # documentation for more information about their specific syntax and use.
   
-  #config.vm.provision "file", source: "/home/tobias/git/ParcelSize", destination: "/home/ParcelSize"
+  config.vm.provision "file", source: "~/workspace/Parcelsize-Pipeline/shell-script.sh", destination: "shell-script.sh"
   
   config.vm.provision "shell", 
    	inline: "echo Hello World!"
