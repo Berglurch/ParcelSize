@@ -16,4 +16,4 @@ docker load -i /home/parcel-frontend
 
 docker run -d --restart always --network=parcelnetwork --name=parcel-api -p 8443:8443 parcel-api java -jar ./build/libs/ParcelSize.jar
 docker run -d --restart always --network=parcelnetwork -p 3306:3306 --name=parcel-db parcel-db
-docker run -d --restart always --network=parcelnetwork -p 8080:8080 --name=parcel-frontend parcel-frontend
+docker run -d --restart always --network=parcelnetwork -p 8080:80 --name=parcel-frontend parcel-frontend
