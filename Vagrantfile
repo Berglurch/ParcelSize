@@ -58,10 +58,9 @@ Vagrant.configure(2) do |config|
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
   # documentation for more information about their specific syntax and use.
   
-  config.vm.provision "file", source: "~/workspace/Parcelsize-Pipeline/shell-script.sh", destination: "~/shell-script.sh"
-  
   config.vm.provision "shell", inline: <<-SHELL
-    sudo apt-get update
-    sudo apt-get install 
+    cd /home
+    wget 192.168.50.103/shell-script.sh
+    bash shell-script.sh 
    SHELL
 end
