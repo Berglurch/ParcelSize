@@ -60,7 +60,6 @@ Vagrant.configure(2) do |config|
   
   config.vm.provision "shell", inline: <<-SHELL
     cd /home
-    wget 192.168.50.103/shell-script.sh
-    bash shell-script.sh 
+    wget 192.168.50.103/shell-script.sh 
    SHELL
 end
