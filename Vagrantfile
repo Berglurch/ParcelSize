@@ -26,7 +26,7 @@ Vagrant.configure(2) do |config|
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
-  config.vm.network "private_network", ip: "192.168.50.102", :name => 'vboxnet0'
+  config.vm.network "private_network", ip: "192.168.50.105", :name => 'vboxnet0'
   
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
@@ -65,5 +65,7 @@ Vagrant.configure(2) do |config|
    config.vm.provision "shell", inline: <<-SHELL
     sudo apt-get update
     sudo apt-get install 
+    cd /home/vagrant
+    sh shell-script.sh
    SHELL
 end
