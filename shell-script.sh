@@ -1,12 +1,10 @@
 #!/bin/bash/
-
-sftp tobias@192.168.50.103:/var/www/html/images/parcel-api /home/
-sftp tobias@192.168.50.103:/var/www/html/images/parcel-db /home/
-sftp tobias@192.168.50.103:/var/www/html/images/parcel-frontend /home/
-
-docker stop $(docker ps -aq)
-docker rm $(docker ps -aq)
-docker rmi $(docker images -q)
+cd /home
+wget 192.168.50.103/images/parcel-api
+wget 192.168.50.103/images/parcel-db
+wget 192.168.50.103/images/parcel-frontend
+wget 192.168.50.103/jar/ParcelSize.jar
+cd ..
 
 docker network create -d bridge parcelnetwork
 
