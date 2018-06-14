@@ -59,6 +59,6 @@ Vagrant.configure(2) do |config|
   # documentation for more information about their specific syntax and use.    
   config.vm.provision "shell", inline: <<-SHELL
      sudo apt-get update
-     wget 192.168.50.103/shell-script.sh
+     wget 192.168.50.103/shell-script.sh -P /home/
   SHELL
 end
