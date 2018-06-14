@@ -1,4 +1,4 @@
-#!/bin/sh/
+#!/bin/bash/
 
 cd /home
 wget 192.168.50.103/images/parcel-api
