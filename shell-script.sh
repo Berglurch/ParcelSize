@@ -4,7 +4,6 @@ cd /home
 wget 192.168.50.103/images/parcel-api
 wget 192.168.50.103/images/parcel-db
 wget 192.168.50.103/images/parcel-frontend
-wget 192.168.50.103/jar/ParcelSize.jar
 cd ..
 
 docker network create -d bridge parcelnetwork
