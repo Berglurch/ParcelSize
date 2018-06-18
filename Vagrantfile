@@ -65,5 +65,7 @@ Vagrant.configure(2) do |config|
    config.vm.provision "shell", inline: <<-SHELL
     sudo apt-get update
     sudo apt-get install
+    cd home/vagrant
+    sh shell-script.sh
    SHELL
 end
