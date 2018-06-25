@@ -38,7 +38,8 @@ public class UAT {
 
   @Test
   public void testUAT() throws Exception {
-    driver.get("http://192.168.50.105:8080/");
+    Thread.sleep(1000000);
+	driver.get("http://192.168.50.105:8080/");
     Thread.sleep(5000);
     driver.findElement(By.id("cfg-size-length")).click();
     driver.findElement(By.id("cfg-size-length")).clear();
