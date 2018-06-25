@@ -29,6 +29,8 @@ public class UAT {
                             PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
                             "/usr/local/share/phantomjs-1.9.8-linux-x86_64/bin/phantomjs"
                         );
+    File file = new File("/usr/local/share/phantomjs-1.9.8-linux-x86_64/bin/phantomjs");
+    System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
     driver = new PhantomJSDriver();
     baseUrl = "http://www.gts.fiorentina.test/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
