@@ -20,7 +20,7 @@ public class UAT {
 
   @Before
   public void setUp() throws Exception {
-	File file = new File("/usr/local/share/phantomjs-1.9.8-linux-x86_64/bin");
+	File file = new File("/usr/local/share/phantomjs-1.9.8-linux-x86_64/bin/phantomjs");
     System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
     driver = new PhantomJSDriver();
     baseUrl = "http://www.gts.fiorentina.test/";
