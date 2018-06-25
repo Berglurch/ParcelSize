@@ -29,4 +29,4 @@ compile group: 'org.seleniumhq.webdriver', name: 'webdriver-common', version: '0
 testCompile group: 'org.seleniumhq.webdriver', name: 'webdriver-firefox', version: '0.9.7376'
 compile group: 'org.seleniumhq.webdriver', name: 'webdriver-support', version: '0.9.7376'
 compile group: 'org.seleniumhq.webdriver', name: 'webdriver-selenium', version: '0.9.7376'
-}
+compile group: 'com.codeborne', name: 'phantomjsdriver', version: '1.2.1'}

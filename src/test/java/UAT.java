@@ -1,6 +1,7 @@
 package test.java;
 
 import java.util.regex.Pattern;
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 import org.junit.*;
 import static org.junit.Assert.*;
@@ -8,6 +9,7 @@ import static org.hamcrest.CoreMatchers.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class UAT {
@@ -18,8 +20,10 @@ public class UAT {
 
   @Before
   public void setUp() throws Exception {
-    driver = new FirefoxDriver();
-    baseUrl = "https://www.katalon.com/";
+	File file = new File("/usr/local/share/phantomjs-1.9.8-linux-x86_64/bin");
+    System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
+    driver = new PhantomJSDriver();
+    baseUrl = "http://www.gts.fiorentina.test/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 
