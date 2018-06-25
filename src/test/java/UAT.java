@@ -10,6 +10,8 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriverService;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
 
 public class UAT {
@@ -20,8 +22,13 @@ public class UAT {
 
   @Before
   public void setUp() throws Exception {
-	File file = new File("/usr/local/share/phantomjs-1.9.8-linux-x86_64/bin/phantomjs");
-    System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
+    DesiredCapabilities caps = new DesiredCapabilities();
+    caps.setJavascriptEnabled(true);                
+    caps.setCapability("takesScreenshot", true);  
+    caps.setCapability(
+                            PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
+                            "/usr/local/share/phantomjs-1.9.8-linux-x86_64/bin/phantomjs"
+                        );
     driver = new PhantomJSDriver();
     baseUrl = "http://www.gts.fiorentina.test/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
