@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class UntitledTestCase {
+public class UAT {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
