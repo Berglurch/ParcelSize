@@ -26,4 +26,12 @@ compile group: 'org.openqa.selenium.webdriver', name: 'webdriver-firefox', versi
 compile group: 'org.openqa.selenium.webdriver', name: 'webdriver-parent', version: '0.6.1039', ext: 'pom'
 compile group: 'org.openqa.selenium', name: 'selenium', version: '0.8.1', ext: 'pom'
 compile group: 'org.openqa.selenium.core', name: 'selenium-core', version: '1.0-20080914.225453'
+compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.12.0'
+compile group: 'org.seleniumhq.selenium', name: 'selenium-api', version: '3.12.0'
+compile group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '3.12.0'
+compile group: 'org.seleniumhq.webdriver', name: 'webdriver-common', version: '0.9.7376'
+testCompile group: 'org.seleniumhq.webdriver', name: 'webdriver-firefox', version: '0.9.7376'
+compile group: 'org.seleniumhq.webdriver', name: 'webdriver-support', version: '0.9.7376'
+compile group: 'org.seleniumhq.webdriver', name: 'webdriver-selenium', version: '0.9.7376'
+compile group: 'org.seleniumhq.webdriver', name: 'webdriver-parent', version: '0.9.7376', ext: 'pom'
 }
