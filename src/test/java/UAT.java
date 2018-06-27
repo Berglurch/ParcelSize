@@ -24,7 +24,7 @@ public class UAT {
   public void setUp() throws Exception {
     DesiredCapabilities caps = new DesiredCapabilities();
     caps.setJavascriptEnabled(true);                
-    //caps.setCapability("takesScreenshot", true);  
+    caps.setCapability("takesScreenshot", true);  
     caps.setCapability(
                             PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
                             "/usr/local/share/phantomjs-1.9.8-linux-x86_64/bin/phantomjs"
@@ -38,9 +38,8 @@ public class UAT {
 
   @Test
   public void testUAT() throws Exception {
-    //Thread.sleep(1000000);
+    Thread.sleep(1000000);
 	driver.get("http://192.168.50.105:8080/");
-    Thread.sleep(5000);
     driver.findElement(By.id("cfg-size-length")).click();
     driver.findElement(By.id("cfg-size-length")).clear();
     driver.findElement(By.id("cfg-size-length")).sendKeys("10");
