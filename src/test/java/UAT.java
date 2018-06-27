@@ -24,7 +24,7 @@ public class UAT {
   public void setUp() throws Exception {
     DesiredCapabilities caps = new DesiredCapabilities();
     caps.setJavascriptEnabled(true);                
-    caps.setCapability("takesScreenshot", true);  
+    //caps.setCapability("takesScreenshot", true);  
     caps.setCapability(
                             PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
                             "/usr/local/share/phantomjs-1.9.8-linux-x86_64/bin/phantomjs"
