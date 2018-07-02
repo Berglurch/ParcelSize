@@ -17,6 +17,11 @@ buildscript {
 
 apply plugin: "com.github.lkishalmi.gatling"
 
+ScalaCompileOptions.metaClass.daemonServer = true
+ScalaCompileOptions.metaClass.fork = true
+ScalaCompileOptions.metaClass.useAnt = false
+ScalaCompileOptions.metaClass.useCompileDaemon = false
+
 jar {
     manifest {
         attributes "Main-Class": "main.java.StartRestServer"
