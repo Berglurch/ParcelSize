@@ -45,5 +45,5 @@ class Performance extends Simulation {
 			.headers(headers_3)
 			.body(RawFileBody("Performance_0003_request.txt"))))
 
-	setUp(scn.inject(atOnceUsers(1))).protocols(httpProtocol)
+	setUp(scn.inject(atOnceUsers(100))).protocols(httpProtocol)
 }
