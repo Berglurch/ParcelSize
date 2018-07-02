@@ -1,4 +1,4 @@
-package lappen
+package gatling.scala
 
 import scala.concurrent.duration._
 
