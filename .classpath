@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/asm-3.1.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/jersey-bundle-1.19.4.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/jsr311-api-1.1.1.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/gson-2.8.2.jar"/>
 	<classpathentry kind="lib" path="/usr/share/java/mysql.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
@@ -13,21 +9,26 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/junit-4.12.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/hamcrest-core-1.3.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/selenium-java-2.53.1.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/selenium-java-3.12.0/libs/byte-buddy-1.8.3.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/selenium-java-3.12.0/libs/commons-codec-1.10.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/selenium-java-3.12.0/libs/commons-exec-1.3.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/selenium-java-3.12.0/libs/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/selenium-java-3.12.0/libs/gson-2.8.2.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/selenium-java-3.12.0/libs/guava-23.6-jre.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/selenium-java-3.12.0/libs/httpclient-4.5.3.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/selenium-java-3.12.0/libs/httpcore-4.4.6.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/selenium-java-3.12.0/libs/okhttp-3.9.1.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/selenium-java-3.12.0/libs/okio-1.13.0.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/selenium-java-3.12.0/client-combined-3.12.0.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/selenium-java-3.12.0/client-combined-3.12.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/tobias/Downloads/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/xdoclet-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/jersey-bundle-1.19.4.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/selenium-java-3.13.0/libs/okio-1.14.1.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/selenium-java-3.13.0/libs/okhttp-3.10.0.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/selenium-java-3.13.0/libs/httpcore-4.4.9.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/selenium-java-3.13.0/libs/httpclient-4.5.5.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/selenium-java-3.13.0/libs/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/selenium-java-3.13.0/libs/gson-2.8.4.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/selenium-java-3.13.0/libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/selenium-java-3.13.0/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/selenium-java-3.13.0/libs/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/selenium-java-3.13.0/libs/byte-buddy-1.8.3.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/selenium-java-3.13.0/client-combined-3.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/selenium-java-3.13.0/client-combined-3.13.0.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/phantomjs-1.9.8.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/phantomjsdriver-1.4.4.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/hamcrest-all-1.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
