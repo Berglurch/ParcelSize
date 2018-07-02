@@ -1,0 +1,13 @@
+products:
+   src/gatling/scala/Performance.scala -> build/classes/scala/gatling/gatling/scala/Performance.class
+binary dependencies:
+   src/gatling/scala/Performance.scala -> /home/reen/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-commons/2.3.1/f0bf9b23929d9cd2de228de0b533c15ddf28df45/gatling-commons-2.3.1.jar
+   src/gatling/scala/Performance.scala -> /home/reen/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-core/2.3.1/84a413fee33fe24c13993633436d2dbc119a584b/gatling-core-2.3.1.jar
+   src/gatling/scala/Performance.scala -> /home/reen/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-http/2.3.1/82fb51cba4a82d4c8fb3aa66510592eaa1188b8e/gatling-http-2.3.1.jar
+   src/gatling/scala/Performance.scala -> /home/reen/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-jdbc/2.3.1/b5ca167eef50c93442a4315064b067f6fadbd62c/gatling-jdbc-2.3.1.jar
+   src/gatling/scala/Performance.scala -> /home/reen/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.3/f2e496f21af2d80b48e0a61773f84c3a76a0d06f/scala-library-2.12.3.jar
+   src/gatling/scala/Performance.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+source dependencies:
+external dependencies:
+class names:
+   src/gatling/scala/Performance.scala -> gatling.scala.Performance
