@@ -14,7 +14,6 @@ buildscript {
     classpath "gradle.plugin.com.github.lkishalmi.gatling:gradle-gatling-plugin:0.7.3"
   }
 }
-
 apply plugin: "com.github.lkishalmi.gatling"
 
 
