@@ -4,6 +4,7 @@
 	<classpathentry kind="lib" path="/usr/share/java/mysql.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
@@ -30,5 +31,8 @@
 	<classpathentry kind="lib" path="/home/reen/Downloads/phantomjs-1.9.8.jar"/>
 	<classpathentry kind="lib" path="/home/reen/Downloads/phantomjsdriver-1.4.4.jar"/>
 	<classpathentry kind="lib" path="/home/reen/Downloads/hamcrest-all-1.3.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/gatling-jdbc-2.3.1.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/gatling-http-2.3.1.jar"/>
+	<classpathentry kind="lib" path="/home/reen/Downloads/gatling-core-2.3.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

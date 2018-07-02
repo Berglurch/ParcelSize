@@ -4,6 +4,19 @@ repositories {
     mavenCentral()
 }
 
+buildscript {
+  repositories {
+    maven {
+      url "https://plugins.gradle.org/m2/"
+    }
+  }
+  dependencies {
+    classpath "gradle.plugin.com.github.lkishalmi.gatling:gradle-gatling-plugin:0.7.3"
+  }
+}
+
+apply plugin: "com.github.lkishalmi.gatling"
+
 jar {
     manifest {
         attributes "Main-Class": "main.java.StartRestServer"
@@ -29,4 +42,8 @@ compile group: 'org.seleniumhq.webdriver', name: 'webdriver-common', version: '0
 testCompile group: 'org.seleniumhq.webdriver', name: 'webdriver-firefox', version: '0.9.7376'
 compile group: 'org.seleniumhq.webdriver', name: 'webdriver-support', version: '0.9.7376'
 compile group: 'org.seleniumhq.webdriver', name: 'webdriver-selenium', version: '0.9.7376'
-compile group: 'com.codeborne', name: 'phantomjsdriver', version: '1.2.1'}
+compile group: 'com.codeborne', name: 'phantomjsdriver', version: '1.2.1'
+compile group: 'io.gatling', name: 'gatling-jdbc', version: '2.3.1'
+compile group: 'io.gatling', name: 'gatling-core', version: '2.3.1'
+compile group: 'io.gatling', name: 'gatling-http', version: '2.3.1'
+}
